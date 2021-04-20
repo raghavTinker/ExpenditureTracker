@@ -54,11 +54,7 @@ class BasicFunctionality{
     
     func retrieveData(){
         if let userWallet = UserDefaults.standard.object(forKey: "wallet") as? Double{
-            Wallet.moneyLeftInWallet = userW
-            
-            
-            
-            allet
+            Wallet.moneyLeftInWallet = userWallet
         }
         else{
             print("Error")
